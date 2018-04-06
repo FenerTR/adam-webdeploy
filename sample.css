@@ -1,0 +1,433 @@
+/** Add css rules here for your application. */
+
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+body, td, a, div, .p {
+    font-family: arial, sans-serif
+}
+/*
+  #############################################################
+  THIS ARE GENERIC ROOT LEVEL CHANGES TO ALL CONTROLS LIKE
+  BUTTON, TEXT FILEDS ETC
+*/
+
+/* REGULAR BUTTON */
+.gwt-Button {
+    font-size: 110%;
+    font-size: 110%;
+    font-weight: bold;
+    width:100px;
+    height:100px;
+    color:red;
+}
+/* PUSH BUTTON */
+.gwt-PushButton{
+    color:red;
+}
+.gwt-PushButton-up {
+    color:green;
+}
+.gwt-PushButton-down {
+    color:blue;
+}
+.gwt-PushButton-up-hovering {
+    color:pink;
+}
+.gwt-PushButton-down-hovering {
+    color:aqua;
+}
+.gwt-PushButton-up-disabled {
+    color:gray;
+}
+.gwt-PushButton-down-disabled {
+    color:maroon;
+}
+/* TOGGLE BUTTON */
+.gwt-ToggleButton-up {
+    color:green;
+}
+.gwt-ToggleButton-down {
+    color:blue;
+}
+.gwt-ToggleButton-up-hovering {
+    color:pink;
+}
+.gwt-ToggleButton-down-hovering {
+    color:aqua;
+}
+.gwt-ToggleButton-up-disabled {
+    color:gray;
+}
+.gwt-ToggleButton-down-disabled {
+    color:maroon;
+}
+
+/* IMAGE */
+.gwt-Image {
+
+}
+/* TEXT BOX */
+.gwt-TextBox {
+    font-size: 90%;
+    color: red;
+}
+.gwt-TextBox-readonly {
+    background-color: yellow;
+}
+
+/* PASSWORD TEXTBOX */
+.gwt-PasswordTextBox {
+
+}
+
+/*TEXT AREA */
+.gwt-TextArea {
+    color: green;
+}
+.gwt-TextArea-readonly {}
+
+/* LABEL */
+.gwt-Label{
+    font-size: 150%;
+    font-weight: bold;
+    color:red;
+    padding:5px;
+    margin:5px;
+}
+
+/* CHECKED BOX */
+.gwt-CheckBox{
+    color:green;
+}
+.gwt-CheckBox-disabled {
+    color:darkgray;
+}
+/*RADIO BUTTON */
+.gwt-RadioButton{
+    color:green;
+}
+/*LIST BOX */
+.gwt-ListBox{
+    color:blue;
+}
+/*RICH TEXTAREA */
+.gwt-RichTextArea {
+
+}
+/* FILE UPLOADS */
+.gwt-FileUpload {
+    color: green;
+}
+
+/*TREE WIDGETS */
+.gwt-Tree {
+    padding: 1px 0px;
+    margin: 0px;
+    white-space: nowrap;
+    cursor: hand;
+    cursor: pointer;
+}
+.gwt-TreeItem {}
+.gwt-TreeItem-selected {
+    background: #ebeff9;
+}
+
+/* MENU BAR */
+.gwt-MenuBar {
+    cursor: default;
+}
+.gwt-MenuBar .gwt-MenuItem {
+    cursor: default;
+    font-family: Arial Unicode MS, Arial, sans-serif;
+}
+.gwt-MenuBar .gwt-MenuItem-selected {
+    background: #E3E8F3;
+}
+.gwt-MenuBar-horizontal {
+// background: #e3e8f3 url(images/hborder.png) repeat-x 0px -2003px;
+    border: 1px solid #e0e0e0;
+}
+.gwt-MenuBar-horizontal .gwt-MenuItem {
+    padding: 5px 10px;
+    vertical-align: bottom;
+    color: #000;
+    font-weight: bold;
+}
+.gwt-MenuBar-horizontal .gwt-MenuItemSeparator {
+    width: 1px;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    border-left: 1px solid #ccc;
+    background: white;
+}
+.gwt-MenuBar-horizontal .gwt-MenuItemSeparator .menuSeparatorInner {
+    width: 1px;
+    height: 1px;
+    background: white;
+}
+.gwt-MenuBar-vertical {
+    margin-top: 0px;
+    margin-left: 0px;
+    background: white;
+}
+.gwt-MenuBar-vertical table {
+    border-collapse: collapse;
+}
+.gwt-MenuBar-vertical .gwt-MenuItem {
+    padding: 2px 40px 2px 1px;
+}
+.gwt-MenuBar-vertical .gwt-MenuItemSeparator {
+    padding: 2px 0px;
+}
+.gwt-MenuBar-vertical .gwt-MenuItemSeparator .menuSeparatorInner {
+    height: 1px;
+    padding: 0px;
+    border: 0px;
+    border-top: 1px solid #ccc;
+    overflow: hidden;
+}
+.gwt-MenuBar-vertical .subMenuIcon {
+    padding-right: 4px;
+}
+.gwt-MenuBar-vertical .subMenuIcon-selected {
+    background: #E3E8F3;
+}
+.gwt-MenuBarPopup {
+    margin: 0px 0px 0px 3px;
+}
+.gwt-MenuBarPopup .menuPopupTopCenter {
+// background: url(images/hborder.png) 0px -12px repeat-x;
+}
+.gwt-MenuBarPopup .menuPopupBottomCenter {
+// background: url(images/hborder.png) 0px -13px repeat-x;
+// -background: url(images/hborder_ie6.png) 0px -13px repeat-x;
+}
+.gwt-MenuBarPopup .menuPopupMiddleLeft {
+// background: url(images/vborder.png) -12px 0px repeat-y;
+// -background: url(images/vborder_ie6.png) -12px 0px repeat-y;
+}
+.gwt-MenuBarPopup .menuPopupMiddleRight {
+// background: url(images/vborder.png) -13px 0px repeat-y;
+// -background: url(images/vborder_ie6.png) -13px 0px repeat-y;
+}
+.gwt-MenuBarPopup .menuPopupTopLeftInner {
+    width: 5px;
+    height: 5px;
+    zoom: 1;
+}
+.gwt-MenuBarPopup .menuPopupTopRightInner {
+    width: 8px;
+    height: 5px;
+    zoom: 1;
+}
+.gwt-MenuBarPopup .menuPopupBottomLeftInner {
+    width: 5px;
+    height: 8px;
+    zoom: 1;
+}
+.gwt-MenuBarPopup .menuPopupBottomRightInner {
+    width: 8px;
+    height: 8px;
+    zoom: 1;
+}
+.gwt-MenuBarPopup .menuPopupTopLeft {
+// background: url(images/corner.png) no-repeat 0px -36px;
+// -background: url(images/corner_ie6.png) no-repeat 0px -36px;
+}
+.gwt-MenuBarPopup .menuPopupTopRight {
+// background: url(images/corner.png) no-repeat -5px -36px;
+// -background: url(images/corner_ie6.png) no-repeat -5px -36px;
+}
+.gwt-MenuBarPopup .menuPopupBottomLeft {
+// background: url(images/corner.png) no-repeat 0px -41px;
+// -background: url(images/corner_ie6.png) no-repeat 0px -41px;
+}
+.gwt-MenuBarPopup .menuPopupBottomRight {
+// background: url(images/corner.png) no-repeat -5px -41px;
+// -background: url(images/corner_ie6.png) no-repeat -5px -41px;
+}
+html>body .gwt-MenuBarPopup {
+}
+* html .gwt-MenuBarPopup .menuPopupTopLeftInner {
+    width: 5px;
+    height: 5px;
+    overflow: hidden;
+}
+* html .gwt-MenuBarPopup .menuPopupTopRightInner {
+    width: 8px;
+    height: 5px;
+    overflow: hidden;
+}
+* html .gwt-MenuBarPopup .menuPopupBottomLeftInner {
+    width: 5px;
+    height: 8px;
+    overflow: hidden;
+}
+* html .gwt-MenuBarPopup .menuPopupBottomRightInner {
+    width: 8px;
+    height: 8px;
+    overflow: hidden;
+}
+
+/* DATE PICKER */
+
+.gwt-DatePicker {
+    border: 1px solid #ccc;
+    border-top:1px solid #999;
+    cursor: default;
+}
+.gwt-DatePicker td,
+.datePickerMonthSelector td:focus {
+    outline: none;
+}
+.datePickerMonthSelector td:focus {
+    outline: none;
+}
+.datePickerDays {
+    width: 100%;
+    background: white;
+}
+.datePickerDay,
+.datePickerWeekdayLabel,
+.datePickerWeekendLabel {
+    font-size: 85%;
+    text-align: center;
+    padding: 4px;
+    outline: none;
+    font-weight:bold;
+    color:#333;
+    border-right: 1px solid #EDEDED;
+    border-bottom: 1px solid #EDEDED;
+}
+.datePickerWeekdayLabel,
+.datePickerWeekendLabel {
+    background: #fff;
+    padding: 0px 4px 2px;
+    cursor: default;
+    color:#666;
+    font-size:70%;
+    font-weight:normal;
+}
+.datePickerDay {
+    padding: 4px 7px;
+    cursor: hand;
+    cursor: pointer;
+}
+.datePickerDayIsWeekend {
+    background: #f7f7f7;
+}
+.datePickerDayIsFiller {
+    color: #999;
+    font-weight:normal;
+}
+.datePickerDayIsValue {
+    background: #d7dfe8;
+}
+.datePickerDayIsDisabled {
+    color: #AAAAAA;
+    font-style: italic;
+}
+.datePickerDayIsHighlighted {
+    background: #F0E68C;
+}
+.datePickerDayIsValueAndHighlighted {
+    background: #d7dfe8;
+}
+.datePickerDayIsToday {
+    padding: 3px;
+    color: #00f;
+// background: url(images/hborder.png) repeat-x 0px -2607px;
+}
+.datePickerMonthSelector {
+    width: 100%;
+    padding: 1px 0 5px 0;
+    background: #fff;
+}
+.datePickerPreviousButton,
+.datePickerNextButton {
+    font-size: 120%;
+    line-height: 1em;
+    color: #3a6aad;
+    cursor: hand;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 0px 4px;
+    outline: none;
+}
+td.datePickerMonth {
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    font-size: 100%;
+    font-weight: bold;
+    color: #333;
+}
+.gwt-DateBox {
+    padding: 5px 4px;
+    border: 1px solid #ccc;
+    border-top: 1px solid #999;
+    font-size: 100%;
+}
+.gwt-DateBox input {
+    width: 8em;
+}
+.dateBoxFormatError {
+    background: #ffcccc;
+}
+.dateBoxPopup {
+}
+
+/* User specific Styles Below */
+
+.gwt-Big-Text{
+    font-size:150%;
+}
+.gwt-Small-Text{
+    font-size:75%;
+}
+.gwt-Red-Text{
+    color:red;
+}
+.gwt-Green-Text{
+    color:green;
+}
+
+.gwt-Green-Border{
+    border:1px solid green;
+}
+.gwt-Blue-Border{
+    border:1px solid blue;
+}
+.gwt-Green-Button{
+    color:green;
+}
+.gwt-Blue-Button {
+    color:blue;
+}
+
+/* ############################################################*/
+
+/*
+   !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+   THE FOLLOWINGS ARE CUSTOM CONTROLS THAT WILL APPLY TO
+   INDIVIDUAL CONTROLS WHEN IT IS REFERENCED
+
+*/
+.MyText {
+    color: blue;
+}
+.BigText {
+    font-size: large;
+}
+.LoudText {
+    font-weight: bold;
+}
+
+#my-button-id { font-size: 150%; }
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
